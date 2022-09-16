@@ -640,7 +640,7 @@ replica:
   spreadConstraints:
     - maxSkew: 1
       topologyKey: node
-      whenUnsatisfiable: DoNoSchedule
+      whenUnsatisfiable: DoNotSchedule
   ## @param replica.lifecycleHooks for the Redis&trade; replica container(s) to automate configuration before or after startup
   ##
   lifecycleHooks: {}
