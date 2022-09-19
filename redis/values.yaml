@@ -637,10 +637,10 @@ replica:
   ##     topologyKey: node
   ##     whenUnsatisfiable: DoNotSchedule
   ##
-  spreadConstraints:
-    - maxSkew: 1
-      topologyKey: kubernetes.io/hostname 
-      whenUnsatisfiable: DoNotSchedule
+  ###spreadConstraints:
+  ###  - maxSkew: 1
+  ###    topologyKey: kubernetes.io/hostname 
+  ###    whenUnsatisfiable: DoNotSchedule
   ## @param replica.lifecycleHooks for the Redis&trade; replica container(s) to automate configuration before or after startup
   ##
   lifecycleHooks: {}
